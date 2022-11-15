@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #020b24;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.border {
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 10px;
+    border: 0px solid #107daf;
+    background-color: #074fa1;
+    width: 270px;
+    padding: 6px 0;
+    box-sizing: border-box;
+}
+
+#text {
+    padding: 9px 12px;
+    width: 10rem;
+    border-radius: 3px;
+    border: 0px;
+    outline: none;
+    background-color: white;
+}
+
+.close {
+    display: none;
+    width: 0px;
+    height: 0px;
+    padding: 3px;
+    position: relative;
+    left: -39px;
+    top: 0px;
+    cursor: pointer;
+    color: #7d7d7e;
+}
+
+#submit {
+    border: 1px;
+    border-radius: 3px;
+    background-color: #03263c;
+    color: white;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-size: 20px;
+}
+
+.result {
+    color: white;
+    display: none;
+    justify-content: space-around;
+    background-color: #275f9f87;
+    width: 270px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 0px 0px 10px 10px ;
+    align-items: center;
+}
+
+.weather {
+    width: 8rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.city, .temp, .clima {
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.city{
+    font-size: 28px;
+}
+
+.temp {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.clima {
+    font-size: 21px;
+}
